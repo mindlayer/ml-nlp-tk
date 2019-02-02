@@ -370,6 +370,24 @@ True
 False
 ```
 
+### is_list_contain_string(text)
+Arguments
+- `str(String)` : input text  
+- `list(String list)` : input string    
+Returns  
+- `result(Boolean)` : whether the text is a part of list item  
+Examples  
+```
+is_list_contain_string("a", ['a', 'dcd'])
+is_list_contain_string("a", ['abcd', 'dcd'])
+is_list_contain_string("a", ['bdc', 'dcd'])
+
+True
+True
+False
+```
+
+
 ### full2half(text)
 Arguments
 - `string(String)` : input string which needs turn to half
